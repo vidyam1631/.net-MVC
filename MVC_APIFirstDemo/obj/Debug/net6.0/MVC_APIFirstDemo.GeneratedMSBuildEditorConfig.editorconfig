@@ -1,0 +1,69 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MVC_APIFirstDemo
+build_property.RootNamespace = MVC_APIFirstDemo
+build_property.ProjectDir = D:\Employee Travel Booking App\MVC\MVC_APIFirstDemo\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Employee Travel Booking App\MVC\MVC_APIFirstDemo
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Employee Travel Booking App/MVC/MVC_APIFirstDemo/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Employee Travel Booking App/MVC/MVC_APIFirstDemo/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Employee Travel Booking App/MVC/MVC_APIFirstDemo/Views/MVC_Movie/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDX01vdmllXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Employee Travel Booking App/MVC/MVC_APIFirstDemo/Views/MVC_Movie/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDX01vdmllXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Employee Travel Booking App/MVC/MVC_APIFirstDemo/Views/MVC_Movie/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDX01vdmllXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Employee Travel Booking App/MVC/MVC_APIFirstDemo/Views/MVC_Movie/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDX01vdmllXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Employee Travel Booking App/MVC/MVC_APIFirstDemo/Views/MVC_Movie/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDX01vdmllXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Employee Travel Booking App/MVC/MVC_APIFirstDemo/Views/MVC_Movie/ShowViaAPI.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVZDX01vdmllXFNob3dWaWFBUEkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Employee Travel Booking App/MVC/MVC_APIFirstDemo/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Employee Travel Booking App/MVC/MVC_APIFirstDemo/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Employee Travel Booking App/MVC/MVC_APIFirstDemo/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Employee Travel Booking App/MVC/MVC_APIFirstDemo/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Employee Travel Booking App/MVC/MVC_APIFirstDemo/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-2g8a11r0uo

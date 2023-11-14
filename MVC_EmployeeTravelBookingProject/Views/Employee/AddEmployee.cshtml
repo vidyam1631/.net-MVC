@@ -1,0 +1,38 @@
+﻿  @model Employee
+
+  <center><h2>Add Employee</h2></center>
+  <br />
+
+  <div>
+      <form method="post">
+
+          <div class="form-group">
+              <label for="catcode">Employee FirstName:</label>
+              @Html.EditorFor(m=>m.EmpFname)
+          </div>
+          <br />
+          <div class="form-group">
+              <label for="catdesc">Employee LastName:</label>
+              @Html.EditorFor(m=>m.EmpLname)
+          </div>
+          <br />
+          <div class="form-group">
+              <label for="catcode">Employee Address:</label>
+              @Html.EditorFor(m=>m.EmpAddress)
+          </div>
+          <br />
+          <div class="form-group">
+              <label for="catdesc">Employee Contact No:</label>
+              @Html.EditorFor(m=>m.EmpContact)
+          </div>
+          <br />
+          <div class="form-group">
+              <label for="catdesc">Employee Dob:</label>
+              @Html.EditorFor(m=>m.EmpDob)
+          </div>
+          <br />
+          <div>
+              <button class="btn btn-outline-success" type="submit">Submit</button>
+          </div>
+      </form>
+  </div>

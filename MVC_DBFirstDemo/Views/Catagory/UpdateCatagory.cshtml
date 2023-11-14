@@ -1,0 +1,21 @@
+﻿@model Catagory
+
+<center><h2>Add Category</h2></center>
+<br />
+
+<div>
+    <form method="post">
+
+        <div class="form-group">
+            <label for="catcode">Category Code:</label>
+            <input asp-for="CatCode" class="form-control" name="CatCode" />
+        </div>
+        <div class="form-group">
+            <label for="catdesc">Category Description:</label>
+            <input asp-for="CatDesc" class="form-control" name="CatDesc" />
+        </div><br />
+        <div>
+            <button class="btn btn-outline-success" type="submit">Submit</button>
+        </div>
+    </form>
+</div>

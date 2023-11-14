@@ -1,0 +1,30 @@
+﻿@model Product
+
+<center><h2>Update Product</h2></center>
+<br />
+
+<div>
+    <form method="post">
+
+        <div class="form-control">
+            <label for="catcode">Product Name:</label>
+            @Html.EditorFor(m=>m.ProdName)
+        </div>
+        <br />
+        <div class="form-control">
+            <label for="catdesc">Product Price:</label>
+            @Html.EditorFor(m=>m.ProPrice)
+        </div>
+        <br />
+        <div class="form-control">
+            <label for="catId">Category</label>
+            <select asp-items=@ViewBag.Catagories asp-for="CatId">
+                <option value="">Select Category</option>
+            </select>
+        </div>
+        <br />
+        <div>
+            <button class="btn btn-outline-success" type="submit">Submit</button>
+        </div>
+    </form>
+</div>

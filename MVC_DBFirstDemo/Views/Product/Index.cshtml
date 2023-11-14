@@ -1,0 +1,47 @@
+﻿@model IEnumerable<Product>
+<h2>List Products</h2>
+@{
+    @if (Model != null)
+    {
+        <table class="table table-bordered table-sm table-striped">
+            <tr>
+                <td>Product Id</td>
+                <td>Product Name</td>
+                <td>Product Price</td>
+                <td>Category Id</td>
+                <td>Delete</td>
+                <td>Update</td>
+            </tr>
+            @foreach (var c in Model)
+            {
+                <tr>
+                    <td>@c.ProId</td>
+                    <td>@c.ProdName</td>
+                    <td>@c.ProPrice</td>
+                    @if (c.Cat.CatCode != null)
+                    {
+                        <td>@c.CatId</td>
+                    }else{
+                        <td>NotAssigned</td>
+                    }
+                   
+                    <td>
+                        <button class="btn btn-outline-danger">
+                            <a asp-action="DeleteProduct" asp-route-id=@c.ProId>Delete</a>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="btn btn-outline-info">
+                            <a asp-action="UpdateProduct" asp-route-id=@c.ProId>Update</a>
+                        </button>
+                    </td>
+                </tr>
+            }
+        </table>
+        <button class="btn btn-outline-success"><a href="/Product/AddProduct">Add New Product</a></button>
+    }
+    else
+    {
+        <h3>No Product to show at this time</h3>
+    }
+}

@@ -1,0 +1,34 @@
+﻿@model Employee
+<h2>Add Employee</h2>
+<br />
+<div>
+    <form method="post">
+        <div class="form-group">
+            <label for="Id">Emp Id : </label>
+            <input asp-for="empId" class="form-control" name="empId" />
+        </div>
+        <div class="form-group">
+            <label for="FName">FirstName : </label>
+            <input asp-for="empFname" class="form-control" name="empFname" />
+        </div>
+        <div class="form-group">
+            <label for="LName">LastName : </label>
+            <input asp-for="empFname" class="form-control" name="empFname" />
+        </div>
+        <div class="form-group">
+            <label for="Address">Address : </label>
+            <input asp-for="empAddress" class="form-control" name="empAddress" />
+        </div>
+        <div class="form-group">
+            <label for="Address">Contact No : </label>
+            <input asp-for="empContactNo" class="form-control" name="empContactNo" />
+        </div>
+        <div class="form-group">
+            <label for="Address">DOB : </label>
+            <input asp-for="empDob" class="form-control" name="empDob" />
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</div>

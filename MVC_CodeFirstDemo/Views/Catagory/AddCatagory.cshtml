@@ -1,0 +1,30 @@
+﻿@model Catagory
+
+<h2>Add New Category</h2>
+<br />
+<br/>
+
+@*<form method="post">*@
+@using (Html.BeginForm())
+{
+    <div class="form-gropp">
+        @Html.LabelFor(m=>m.CatCode): <br />
+        @Html.EditorFor(m=>m.CatCode)
+        @Html.ValidationMessageFor(m=>m.CatCode,"", new{@style="color:red;font-size:small"})
+    </div>
+    <div class="form-gropp">
+        @Html.LabelFor(m=>m.CatDesc): <br />
+        @Html.EditorFor(m=>m.CatDesc)
+        @Html.ValidationMessageFor(m=>m.CatDesc,"", new{@style="color:red;font-size:small"})
+    </div>
+    <br />
+    @Html.ValidationSummary();
+    <div><button type="submit" class="btn btn-primary">Submit</button></div>
+}
+
+@*</form>*@
+@section Scripts{
+    @{
+        Html.RenderPartial("_ValidationScriptsPartial");
+    }
+}

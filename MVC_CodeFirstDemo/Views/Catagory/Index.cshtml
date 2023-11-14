@@ -1,0 +1,41 @@
+﻿@model IEnumerable<Catagory>
+
+<center></><h2>Category List</h2></center>
+
+@{
+    @if (Model != null)
+    {
+        <table class="table table-bordered table-sm table-striped">
+            <tr>
+                <td>@Html.DisplayNameFor(m=>m.CatId)</td>
+                <td>@Html.DisplayNameFor(m=>m.CatCode)</td>
+                <td>@Html.DisplayNameFor(m=>m.CatDesc)</td>
+                <td>Delete</td>
+                <td>Update</td>
+            </tr>
+            @foreach (var c in Model)
+            {
+                <tr>
+                    <td>@c.CatId</td>
+                    <td>@c.CatCode</td>
+                    <td>@c.CatDesc</td>
+                    <td>
+                        <button class="btn btn-outline-danger">
+                            <a asp-action="DeleteCatagory" asp-route-id=@c.CatId>Delete</a>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="btn btn-outline-info">
+                            <a asp-action="UpdateCatagory" asp-route-id=@c.CatId>Update</a>
+                        </button>
+                    </td>
+                </tr>
+            }
+        </table>
+        <button class="btn btn-outline-success"><a asp-action="AddCatagory">Add New Category</a></button>
+    }
+    else
+    {
+        <h3>No Category to show at this time</h3>
+    }
+}
